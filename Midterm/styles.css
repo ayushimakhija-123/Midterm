@@ -1,0 +1,123 @@
+li{
+    display: inline-block;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-variant: small-caps;
+   line-height: 3em;
+   width: 150px;
+}
+header{ 
+    background-color: transparent;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    color: #4a2f2f; 
+    font-weight:400; 
+
+
+}
+nav{
+  background-color: dimgray;
+
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+
+ul{
+  text-align: center;
+}
+.one{
+
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #555
+   
+}
+.two{
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+     color: #555; 
+    
+}
+
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  gap: 40px;
+  padding: 40px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.hero-text {
+  flex: 1;
+  text-align: left;
+}
+
+.hero-image {
+  width: 500px;
+  height: auto;
+  flex-shrink: 0;
+  border-radius: 10px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: rgb(201, 229, 192);
+  font-weight: bold;
+}
+
+/* Featured Recipes */
+.featured-recipes {
+  padding: 40px;
+  text-align: left;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: bisque;
+}
+
+.recipes-grid {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.recipe-card {
+  text-align: center;
+}
+
+.recipe-card img {
+  width: 300px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.browse-category {
+    padding: 40px;
+  text-align: left;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.category-grid{
+   display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.category-card{
+    text-align:center
+}
+.category-card img{
+  width: 300px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;  
+}
+
+
+
